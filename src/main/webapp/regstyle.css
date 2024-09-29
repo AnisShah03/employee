@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1687033826149-5ad6e5471e44?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.login-container {
+  position: fixed;
+  height: 300px;
+  width: 500px !important;
+  border: 1px solid white !important;
+  display: flex;
+  backdrop-filter: blur(3px);
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login-container > form {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.input-group {
+  outline: yellow !important;
+}
+
+.submit-btn {
+  border-color: grey !important;
+  color: white !important;
+  /* background: black !important; */
+}
+.reg-text {
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.log-in-text {
+  color: white;
+}
+.log-in-text > a {
+  text-decoration: none;
+  color: yellow;
+}
